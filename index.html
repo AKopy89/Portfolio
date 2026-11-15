@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alec Kopystynsky</title>
+    <meta name="description" content="The personal website of Alec Kopystynsky.">
+    <meta name="theme-color" content="#f5f4ef">
+    <title>Alec Kopystynsky — Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1><strong>Alec Kopystynsky</strong></h1>
+    <header class="site-header">
+        <a class="wordmark" href="#home" aria-label="Alec Kopystynsky, home">AK<span>.</span></a>
+        <a class="header-link" href="mailto:alec@kopystynsky.dev">Get in touch <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="home">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Welcome to my corner of the web</p>
+                <h1 id="hero-title">Hi, I’m<br><span>Alec Kopystynsky.</span></h1>
+                <p class="intro">A personal portfolio and a place to share what I’m working on. Have a question or want to connect? I’d love to hear from you.</p>
+                <a class="contact-button" href="mailto:alec@kopystynsky.dev">
+                    <span>Say hello</span>
+                    <span class="button-arrow" aria-hidden="true">↗</span>
+                </a>
+            </div>
+            <div class="hero-art" aria-hidden="true">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="monogram">A<span>.</span></div>
+                <span class="art-caption">A little space<br>to make things happen.</span>
+            </div>
+            <div class="hero-bottom">
+                <span>PERSONAL PORTFOLIO</span>
+                <span>BASED ON THE WEB <span aria-hidden="true">↘</span></span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <span>© Alec Kopystynsky</span>
+        <a href="mailto:alec@kopystynsky.dev">alec@kopystynsky.dev <span aria-hidden="true">↗</span></a>
+    </footer>
 </body>
 </html>
