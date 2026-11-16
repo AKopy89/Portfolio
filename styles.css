@@ -228,6 +228,59 @@ h1 span {
     color: var(--green);
 }
 
+.hero-bottom .portfolio-link {
+    transition: color 160ms ease;
+}
+
+.hero-bottom .portfolio-link:hover {
+    color: var(--ink);
+}
+
+.hero-bottom .portfolio-link span {
+    padding-left: 5px;
+    color: var(--green);
+}
+
+.portfolios {
+    padding: 64px 0 80px;
+    border-top: 1px solid var(--line);
+}
+
+.portfolios .eyebrow {
+    margin-bottom: 12px;
+}
+
+.portfolios h2 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 580;
+    letter-spacing: -0.06em;
+}
+
+.empty-state {
+    margin: 16px 0 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.portfolios:has(.portfolio-list li) .empty-state {
+    display: none;
+}
+
+.portfolio-list {
+    display: grid;
+    gap: 12px;
+    margin: 24px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.portfolio-list a {
+    color: var(--green);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 .site-footer {
     min-height: 76px;
     border-top: 1px solid var(--line);
